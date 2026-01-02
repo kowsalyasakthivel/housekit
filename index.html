@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css">
+
+</head>
+
+<body>
+    <header class="max-w-[1500px] mx-auto">
+        <div class="flex justify-between items-center p-5 border-5">
+            <div class="border-5 text-2xl p-10">Housekit</div> 
+            <div class="hidden lg:flex gap-4 text-1xl ">
+                <div class="text-blue-1000">home</div>
+                <div class="text-blue-1000">shop</div>
+                <div class="text-blue-1000">promotion</div>
+                <div class="text-blue-1000">blog</div>
+                <div class="text-blue-1000">pages</div>
+                <div class="text-blue-1000">vendor</div>
+            </div>
+            <div class="hidden lg:block text-blue-500">search</div>
+            <div onclick="menuopen()" class="lg:hidden"><i class="fi-br-bars-sort"></i></div>
+        </div>
+        <div id="menu" class="lg:hidden hidden text-blue-500 absolute text-lg font-bold p-10 bg-white space-3 w-full">
+            <div class="">home</div>
+                <div class="">shop</div>
+                <div class="">promotion</div>
+                <div class="">blog</div>
+                <div class="">pages</div>
+                <div class="">vendor</div>
+                <div class="">search</div>
+            </div>
+                           
+    </header>
+    <main>
+        <section
+            class="bg-[url(https://wallpapercave.com/wp/wp2647032.jpg)] bg-no-repet bg-cover bg-center min-h-[700px] w-full p-10 lg:p-20 flex-item-center">
+                <div>
+                    <p class="font bold text-5xl p-5 w-5p">creative design minimalist furniture</p>
+                </div>
+                    <p class=" gap-100 mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> Dolorum quos non ratione culpa
+                        laborum accusamus cumque</br> aspernatur tempore eligendi sit beatae, et commodi.</br> Officia a
+                        adipisci nihil libero  architecto laborum"></p>
+                        <button class="border-2 px-5 py-3 rounded-lg cursor-pointer"> shop now</button>
+                </div>
+                </section>
+
+                <section 
+                 class="flex flex-col justify-center items-center md:flex-row md:justify-between max-w-[1200px] px-5 mx-auto text-center mt-20 space-y-5 ">
+            <div>
+                
+                   <i class="fi fi-br-truck-container text-darkblack-900 text-5xl flex items-end justify-center  h-30 w-30"></i>
+                <div class="p-5">FREE SHIPPING</div>
+                <p>Lorem ipsum dolorsit amet</br> consectetur adipisicing elit.</br> Maiores, itaque Explicabo.</br>
+                    accusamus voluptates</p>
+            </div>
+            <div>
+                <i class="fi fi-sr-coins text-darkblack-900 text-5xl flex items-end justify-center h-30 w-30"></i>
+                <div class="p-5">MONEY GUARANTEE</div>
+                <P>Lorem ipsum dolorsit amet</br> consectetur adipisicing elit.</br> Maiores, itaque Explicabo.</br>
+                    accusamus voluptates</P>
+            </div>
+            <div>
+                <i
+                    class="fi fi-sr-shopping-cart text-darkblack-900 text-5xl flex items-end justify-center h-30 w-30"></i>
+                <div class="p-5">ONLINE SUPPORT</div>
+                <P>Lorem ipsum dolorsit amet</br> consectetur adipisicing elit.</br> Maiores, itaque Explicabo.</br>
+                    accusamus voluptates</P>
+            </div>
+
+        </section>
+        <section>
+            <div class="grid grid-cols-1  lg:grid-cols-3 gap-y-7 lg:gap-x-7 px-5 max-w-[1200px] mx-auto mt-20">
+                <div 
+                class="bg-[url(https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/04/dm1.jpg)] h-60 bg-no-repeat bg-center bg-cover text-white-200 text-center flex-justify-center items-center">
+                 <div class="h-40 w-40 bg-white/50 rounded-full flex-justify-center items-center"> AUDIO </br>& </br>SPEAKER</div>
+                </div>
+                <div class="bg-[url(https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/04/dm2.jpg)] h-60 bg-no-repeat p-10
+                 bg-center bg-cover text-white-200  col-span-2 text-center flex justify-end">
+                 <div class="text-right">
+                    <div>clean & clear </div>
+                    <div>porelein for your kitchen</div>
+                    <div>price form:$39.00</div>
+                    <div class="border-2 text-center flex w-fit mx-auto">shop now</div>
+                    </div>
+                </div>
+                <div class="bg-[url(https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/04/dm3.jpg)] h-60 bg-no-repeat bg-center bg-cover text-white-200 col-span-2 text-center">
+                    <div>clean & clear porelain</div>
+                    <div>for your kitchen</div>
+                    <div>price forms:$79.00</div>
+                    <div class="border-2 text-center flex w-fit mx-auto mt-1">shop now</div>
+                </div>
+                <div class="bg-[url(https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/04/dm4.jpg)] h-50 bg-no-repeat bg-center bg-cover text-white-200 text-center">furniture and</br> decores</div>
+            </div>
+        </section>
+          
+
+        <section>
+            <div class="max-w-[1200px] px-5 mx-auto">
+                <h2 class="text-center text-5xl font-bold mb-5">New arrivals</h2>
+                <p class="text-center text-lg mb-10 max-w-200 mx-auto">Lorem ipsum dolor sit amet consectetur adipiscing
+                    elit. Sed aci erat dales vitakse dalesnon estinvitae egestasenim in pretium nulla.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20 gap-5">
+                    <div class="">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/1a-300x360.jpg"
+                            alt="">
+                        <h3 class="text-gray-400 font-semibold my-2">product 1</h3>
+                        <p class="text-gray-800 font-bold">$100</p>
+                    </div>
+                    <div class="">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/15-2-300x360.jpg"
+                            alt="">
+                        <h3 class="text-gray-400 font-semibold my-2">product 1</h3>
+                        <p class="text-gray-800 font-bold">$100</p>
+                    </div>
+                    <div class="">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2017/09/24a-300x360.jpg"
+                            alt="">
+                        <h3 class="text-gray-400 font-semibold my-2">product 1</h3>
+                        <p class="text-gray-800 font-bold">$100</p>
+                    </div>
+                    <div class="">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/13-2-300x360.jpg"
+                            alt="">
+                        <h3 class="text-gray-400 font-semibold my-2">product 1</h3>
+                        <p class="text-gray-800 font-bold">$100</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="max-w-[1200px] mx-auto">
+                <h2 class="text-center text-5xl font-bold mb-5">FEATURE PRODUCTS</h2>
+                <P class="text-center text-lg mb-10 max-w-200 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, omnis incidunt. Amet voluptatum sed vero repellendus possimus! Iusto, voluptatum reiciendis.</P>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20 gap-5">
+                    <div class="max-w-[1500] mx-auto">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/15-2-300x360.jpg"
+                         alt="">
+                         <h3 class="text-red-400 font-semibold my-2">NISI UT ALIQU</h3>
+                         <p class="text-blue-800 font-bold">$60.00-70.00</p>
+            </div>
+            <div class=" mx-auto">
+                <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/16-1-300x360.jpg"
+                         alt="">
+                         <h3 class="text-red-400 font-semibold my-2">SAPIEN NON ORNARE</h3>
+                         <p class="text-blue-800 font-bold">$59.00</p>
+            </div>
+            <div class=" mx-auto">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/15-2-300x360.jpg"
+                         alt="">
+                         <h3 class="text-red-400 font-semibold my-2">NUNC IMPERDIET SED FRAT VEL</h3>
+                         <p class="text-blue-800 font-bold">$68.00</p>
+            </div>
+            <div class=" mx-auto">
+                        <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2018/11/3-6-300x360.jpg"
+                         alt="">
+                         <h3 class="text-red-400 font-semibold my-2">IN PURUS IPSUM</h3>
+                         <p class="text-blue-800 font-bold">$65.00</p>
+            </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-6 mx-auto gap-8  max-w-[1200px] border-t-1 border-gray-400 border-b-1 mt-10 py-5">
+            <div>
+                <img  class="mx-auto"
+                 src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/br2.png" alt="">
+            </div>
+            <div>
+                <img class="mx-auto"
+                src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/br1.png" alt="">
+            </div>
+            <div>
+                <img class="mx-auto"
+                src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/br3.png" alt="">
+            </div>
+            <div>
+                <img class="mx-auto"
+                src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/br4.png" alt="">
+            </div>
+            <div>
+                <img class="mx-auto"
+                src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/br5.png" alt="">
+            </div>
+            <div>
+                <img class="mx-auto"
+                src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/br6.png" alt="">
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="max-w-[1500px] mx-auto mt-10 px-5 ">
+                <h2 class="text-center text-5xl font-bold mt-5">LATEST BLOG</h2>
+                <p class="text-center text-lg mb-10 max-w-200 mt-5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> omnis incidunt. Amet voluptatum sed vero repellendus possimus! Iusto, voluptatum reiciendis.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20 mx-auto gap-10 mx-auto">
+                <div class="">
+                    <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2016/10/blo1.jpg"
+                    alt="">
+                    <h3 class="text-blue-400 font-semibold my-2">october 14,2016</h3>
+                    <h4 class="text-blue-400 font-semibold my-2">post by: wpthemege</h4>
+                    <h4 class="text-pink-400 font-semibold my-2"> ULLAMCO LABORIES NISIT UT ALIQUE EX</h4>
+                    <p class="text-gray-400 font-semiblod my-2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, libero voluptatibus cum nulla evniest"></p>
+                    <div class="border-2 text-center flex w-fit">READ MORE</div>
+                </div>
+                <div class="mx-auto">
+                    <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2016/10/blo2.jpg"
+                    alt="">
+                    <h3 class="text-blue-400 font-semibold my-2">octember14,2016</h3>
+                    <h4 class="text-blue-400 font-semibold my-2">post by wpthemego</h4>
+                    <h4 class="text-pink-400 font-semibold my-2">UT LABORE ET DOLORE MAGNA ALIQUA</h4>
+                    <p class="text-gray-400 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, libero voluptatibus cum nulla evniest</p>
+                    <div class="border-2 text-center flex w-fit ">READ MORE</div>
+                </div>
+                <div class="mx-auto">
+                <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2016/10/blo3.jpg"
+                    alt="">
+                    <h3 class="text-blue-400 font-semi-model my-2">octember14,2016</h3>
+                    <h4 class="text-blue-400 font-semibold my-2">post by wpthemego</h4>
+                    <h4 class="text-pink-400 font-semi-model my-2">EIUSMOD TEMPOR INCIDIDUNT UT</h4>
+                    <p class="text-gray-400 font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, libero voluptatibus cum nulla evniest</p>
+                    <div class="border-2 text-center flex w-fit">READ MORE</div>
+            </div> 
+                </div>
+            </div>
+            
+        </section>
+        <footer>
+            <section class="bg-gray-400  mt-20 px-5">
+            <div class="flex flex-col md:flex-row justify-between max-w-[1500px] mx-auto gap-20">
+
+                <div class="mt-5">
+                    <h6 class="text text-white-400 font-bold">ABOUT STORE</h6>
+                    <P>ramalagh place,liverpool,L3,5UL,England</P>
+                    <h5>8(495) 989-20-11</h5>
+                    <p>contact@wpthemego.com</p>
+                    <div class="flex mx-auto gap-5">
+                    <img src="social-media.png" alt="">
+                    <img src="twitter (7).png" alt="">
+                    <img src="whatsapp-square.png" alt="">
+                    <img src="instagram-square.png" alt="">
+                    <img src="google-circle.png" alt="">
+                    </div>
+
+                </div>
+                <div>
+                    <h5 class="text-white-400 font-bold">INFORMATION</h5>
+                    <P>Shipping guide</P>
+                    <p>Store location</p>
+                    <p>Afiliates</p>
+                    <p>customer point policy</p>
+                    <p>customer point policy</p>
+                </div>
+                <div> 
+                    <h5 class="text-white-400 font-bold">CUSTOMER SERVICES</h5>
+                    <p>product support</p>
+                    <p> pc setup & support</p>
+                    <p>services</p>
+                    <p>Extended service plane</p>
+                    <p>community</p>
+                </div>
+            </div>
+        <section>
+            <div class="flex  flex-col md:flex-row justify-around max-w-[1500px] mx-auto mt-40 border-t-2 border-brown-500 border-b-1 mb-10">
+            <h5 class="font-bold text-white-400">SIGN Up FOR OUR EXCLUSIVE NEWS LETTER</h5>
+            <input type="text" placeholder="ENTER YOUR email" class="border rounder p-2/">
+            </div>
+        </section>
+        <section>
+            <div class="flex  flex-col md:flex-row max-w-[1500px] mx-auto mt-10 justify-around">
+                <h5>@2025 Wordpress theme sw houskit.all rights reserved.designed by wpthemego.com.</h5>
+                <div>
+                    <img src="https://demo1.wpthemego.com/themes/sw_houskit/wp-content/uploads/2019/02/payment.png"alt="">
+                </div>
+            </div>
+
+        </section>
+
+        </section>
+
+    </footer>
+
+
+
+
+
+
+
+
+    </main>
+    <script>
+        function menuopen() {
+            const abc=document.getElementById('menu')
+            abc.classList.toggle('hidden')
+        }
+    </script>
+
+
+</body>
+
+</html>
